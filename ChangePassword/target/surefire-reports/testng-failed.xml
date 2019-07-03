@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.demo.test.ChangePassword_Positive">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyChangePassword_InValid09"/>
+        </methods>
+      </class> <!-- com.demo.test.ChangePassword_Positive -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
