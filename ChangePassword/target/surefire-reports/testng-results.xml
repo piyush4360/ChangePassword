@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2019-07-03T18:03:09Z" finished-at="2019-07-03T18:03:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78" started-at="2019-07-03T18:03:09Z" finished-at="2019-07-03T18:03:09Z">
+      <class name="com.demo.test.ChangePassword_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="15" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_Valid01()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_Valid01" duration-ms="13" started-at="2019-07-03T23:33:09Z" description="Change password valid test for more than 18 characters" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_Valid01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_Valid02()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_Valid02" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password valid test for exact 18 characters" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_Valid02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid01()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid01" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for less than 18 characters" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid02()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid02" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for 1 uppercase character" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid02 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid03()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid03" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for 1 lowercase character" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid03 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid04()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid04" duration-ms="2" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for 1 special character" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid04 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid05()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid05" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for 1 digit in password" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid05 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid06()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid06" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for no duplicate repeat character more than 4" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid06 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid07()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid07" duration-ms="0" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for no more than 4 special characters" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid07 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid08()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid08" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for password not contain more than 50% number" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid08 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="2" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid09()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid09" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for new password not matching more than 80% of old password" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid09 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid10()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid10" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for new password exactly matching old password" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid10 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyChangePassword_InValid11()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="verifyChangePassword_InValid11" duration-ms="1" started-at="2019-07-03T23:33:09Z" description="Change password invalid test for user entering wrong old password" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangePassword_InValid11 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.test.ChangePassword_Test@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-03T23:33:09Z" finished-at="2019-07-03T23:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.test.ChangePassword_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
