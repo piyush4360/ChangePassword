@@ -50,7 +50,7 @@
 
 							<receivers>
 								<!-- Email address of receiver to whom report to be sent -->
-								<receiver>nimoria.piyush@gmail.com</receiver>
+								<receiver>receiver_email_address</receiver>
 							</receivers>
 							<fileSets>
 								<fileSet>
